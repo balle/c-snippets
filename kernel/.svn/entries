@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2004-07-26T21:22:23.597149Z"
+   url="file:///data/subversion/c_sources/kernel"
+   last-author="dj"
+   kind="dir"
+   uuid="b720f78e-25e0-0310-a200-d736b7f84afa"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="trusted_exec.c"
+   text-time="2004-07-26T21:34:42.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="b7fba3f1af9e84ec18b3b5d0f0249a95"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="device.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="a50b8371e72eb2b7bcd1bb4fea2d6eed"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hide_prog.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="f13f64da3bcf9173e1cfb44e2098fa4e"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hide_shell.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="13d06dd5e4bac9513bf283bbf5db4687"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hijack_fd.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="486de6ffc214490dba7fb67594c0fdef"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="proc.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="da722ff9b512ffc97ea7bc343ceef0e8"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hide_pid.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="f82e1bd7debcf8b47725e5b2088b0940"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="unlink_module.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="bb94c65d167b58e6fc5febf251ad889c"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="open_backdoor.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="ec2e36be482b4439fc7e879778e37afb"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ttysniff.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="0637be465ae37930cce346123a81a14a"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="watchtty.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="ff9e3e0a14203768dad5cdff2cf7e830"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hide_file.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="72bfacd81585810f0cf04769f6e1b125"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="clean_messages.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="98dd8734115ed59a2a3af2057009343e"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="block_open.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="a962bd6edb9cc9c5fa04c018e8e8e5ec"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hijack_symbol.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="3a8234ad5bd3946644638566eea71ba0"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="7da074ae8d71e38d58cfa56363c3ff32"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="log_open_syscalls.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="1bf8c59a1b231c49785e138a5cd1c8fe"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="params.c"
+   text-time="2004-07-26T21:34:43.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="1b0a60a7e49a28e3630ec313e10d796c"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:43.000000Z"/>
+<entry
+   name="hiding_the_honey"
+   kind="dir"/>
+</wc-entries>

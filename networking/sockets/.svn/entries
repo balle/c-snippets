@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2004-07-26T21:22:23.597149Z"
+   url="file:///data/subversion/c_sources/networking/sockets"
+   last-author="dj"
+   kind="dir"
+   uuid="b720f78e-25e0-0310-a200-d736b7f84afa"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="client.c"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="96919509f8ad791cae167355b05937e5"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="daytimeserver.c"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="8e8672542f3c7d31544d05f1f2881a1a"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inetd.c"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="4d0f7df244a6e09484b162de1df39f32"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="timeserver.c"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="5089a933d40f301931012b9de840a1a8"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.c"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="7450e45df188ef146f214a850a2fbc9d"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inetd.conf"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="feb242584c94ef199efb6a3de93512af"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.h"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="dd5702fa8bcb50ed5da23edae0718713"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="crazy-server.c"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="c774442332c512301ab1be4c3e4c7de8"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="timeclient.c"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="cf8264cb5e43f8616acbc9732bdc1ce0"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+</wc-entries>

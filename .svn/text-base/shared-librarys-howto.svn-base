@@ -1,0 +1,75 @@
+   
+ELF shared libraries
+
+   To build libfoo.so as a shared library, the basic steps look like
+   this:
+   
+$ gcc -fPIC -c *.c
+$ gcc -shared -Wl,-soname,libfoo.so.1 -o libfoo.so.1.0 *.o
+$ ln -s libfoo.so.1.0 libfoo.so.1
+$ ln -s libfoo.so.1 libfoo.so
+$ LD_LIBRARY_PATH=`pwd`:$LD_LIBRARY_PATH ; export LD_LIBRARY_PATH
+
+   This will generate a shared library called libfoo.so.1.0, and the
+   appropriate links for ld (libfoo.so) and the dynamic loader
+   (libfoo.so.1) to find it. To test, we add the current directory to
+   LD_LIBRARY_PATH.
+   
+   When you're happpy that the library works, you'll have to move it to,
+   say, /usr/local/lib, and recreate the appropriate links. The link from
+   libfoo.so.1 to libfoo.so.1.0 is kept up to date by ldconfig, which on
+   most systems is run as part of the boot process. The libfoo.so link
+   must be updated manually. If you are scrupulous about upgrading all
+   the parts of a library (e.g. the header files) at the same time, the
+   simplest thing to do is make libfoo.so -> libfoo.so.1, so that
+   ldconfig will keep both links current for you. If you aren't, you're
+   setting yourself up to have all kinds of weird things happen at a
+   later date. Don't say you weren't warned.
+   
+$ su
+# cp libfoo.so.1.0 /usr/local/lib
+# /sbin/ldconfig
+# ( cd /usr/local/lib ; ln -s libfoo.so.1 libfoo.so )
+     _________________________________________________________________
+   
+Version numbering, sonames and symlinks
+
+   Each library has a soname. When the linker finds one of these in a
+   library it is searching, it embeds the soname into the binary instead
+   of the actual filename it is looking at. At runtime, the dynamic
+   loader will then search for a file with the name of the soname, not
+   the library filename. Thus a library called libfoo.so could have a
+   soname libbar.so, and all programs linked to it would look for
+   libbar.so instead when they started.
+   
+   This sounds like a pointless feature, but it is key to understanding
+   how multiple versions of the same library can coexist on a system. The
+   de facto naming standard for libraries in Linux is to call the
+   library, say, libfoo.so.1.2, and give it a soname of libfoo.so.1. If
+   it's added to a `standard' library directory (e.g. /usr/lib), ldconfig
+   will create a symlink libfoo.so.1 -> libfoo.so.1.2 so that the
+   appropriate image is found at runtime. You also need a link libfoo.so
+   -> libfoo.so.1 so that ld will find the right soname to use at link
+   time.
+   
+   So, when you fix bugs in the library, or add new functions (any
+   changes that won't adversely affect existing programs), you rebuild
+   it, keeping the soname as it was, and changing the filename. When you
+   make changes to the library that would break existing binaries, you
+   simply increment the number in the soname --- in this case, call the
+   new version libfoo.so.2.0, and give it a soname of libfoo.so.2. Now
+   switch the libfoo.so link to point to the new version and all's well
+   with the world again.
+   
+   Note that you don't have to name libraries this way, but it's a good
+   convention. ELF gives you the flexibility to name libraries in ways
+   that will confuse the pants off people, but that doesn't mean you have
+   to use it.
+   
+   Executive summary: supposing that you observe the tradition that major
+   upgrades may break compatibility, minor upgrades may not, then link
+   with
+   
+gcc -shared -Wl,-soname,libfoo.so.major -o libfoo.so.major.minor
+
+   and everything will be all right.

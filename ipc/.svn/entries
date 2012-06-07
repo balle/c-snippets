@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2004-07-26T21:22:23.597149Z"
+   url="file:///data/subversion/c_sources/ipc"
+   last-author="dj"
+   kind="dir"
+   uuid="b720f78e-25e0-0310-a200-d736b7f84afa"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="fork-and-pipe.c"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="5d45ad484c510119766cd701888fdbb9"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="signal.c"
+   text-time="2004-07-26T21:34:45.000000Z"
+   committed-date="2004-07-26T21:22:23.597149Z"
+   checksum="007f3331258f62fb7fd4b45857f0317d"
+   last-author="dj"
+   kind="file"
+   prop-time="2004-07-26T21:34:45.000000Z"/>
+</wc-entries>
